@@ -1,5 +1,0 @@
-labels: 
-  - name: C-Suite
-  - description: Hosts belonging to the C-Suite
-  - label_membership_type: manual
-  - hosts:
