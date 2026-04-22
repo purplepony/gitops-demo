@@ -118,3 +118,8 @@ software:
   packages:
     - path: ../platforms/windows/software/cloudflare-warp.yml
       self_service: false
+
+software:
+  fleet_maintained_apps:
+    - slug: gimp/darwin
+      self_service: true
