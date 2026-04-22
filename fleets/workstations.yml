@@ -203,3 +203,11 @@ settings:
       enable_failing_policies_webhook: true
       destination_url: https://webhook.site
       host_batch_size: 0
+
+software:
+  packages:
+    - path: ../platforms/macos/software/zoom.yml
+      self_service: true
+      setup_experience: true
+      categories:
+        - Communication
